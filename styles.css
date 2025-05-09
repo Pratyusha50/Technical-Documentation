@@ -8,7 +8,6 @@ body {
     color: #333;
 }
 
-/* Navbar (Fixed Sidebar) */
 #navbar {
     width: 300px;
     height: 100vh;
@@ -47,14 +46,12 @@ body {
     background: #e6e6e6;
 }
 
-/* Main Content Area */
 #main-doc {
     margin-left: 320px;
     padding: 30px;
     max-width: 800px;
 }
 
-/* Section Headers */
 .main-section header {
     font-size: 1.8em;
     font-weight: bold;
@@ -69,7 +66,6 @@ p {
     margin-bottom: 15px;
 }
 
-/* Code Blocks */
 code {
     display: block;
     background: #272822;
@@ -81,7 +77,6 @@ code {
     overflow-x: auto;
 }
 
-/* Lists */
 ul {
     margin: 10px 0;
     padding-left: 20px;
