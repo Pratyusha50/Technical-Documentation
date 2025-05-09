@@ -1,0 +1,94 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction_to_Python">Introduction to Python</a></li>
+        <li><a class="nav-link" href="#Features_of_Python">Features of Python</a></li>
+        <li><a class="nav-link" href="#Advantages_of_Python">Advantages of Python</a></li>
+        <li><a class="nav-link" href="#Disadvantages_of_Python">Disadvantages of Python</a></li>
+        <li><a class="nav-link" href="#Uses_and_Applications_of_Python">Uses and Applications of Python</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_Python">
+        <header>Introduction to Python</header>
+        <p>Python was created by Guido van Rossum and was first released in 1991. It is widely used in web development, data science, artificial intelligence, and automation.</p>
+        <p>Python is a set of instructions that we give in the form of a Program to our computer to perform any specific task. It is a Programming language having properties like it is interpreted, object-oriented and it is high-level too.</p>
+        <p>A basic Python program to print a statement:</p>
+        <code>print("Hello World")</code>
+      </section>
+      <section class="main-section" id="Features_of_Python">
+        <header>Features of Python</header>
+        <p>Easy to read and understand,
+          Interpreted language, Object-oriented programming language</p>
+        <p>Example of defining a function in Python:</p>
+        <code>
+          def greet(name):
+              return f"Hello, {name}!"
+          print(greet("Alice"))
+        </code>
+      </section>
+      <section class="main-section" id="Advantages_of_Python">
+        <header>Advantages of Python</header>
+        <ul>
+          <li>Versatile and open-source.</li>
+          <li>Improves productivity.</li>
+          <li>Supports libraries.</li>
+          <li>Huge library.</li>
+        </ul>
+        <p>Example of using a Python library (math module):</p>
+        <code>
+          import math
+          print(math.sqrt(25))  # Output: 5.0
+        </code>
+      </section>
+      <section class="main-section" id="Disadvantages_of_Python">
+        <header>Disadvantages of Python</header>
+        <ul>
+          <li>Restrictions in design.</li>
+          <li>Memory inefficient.</li>
+        </ul>
+        <p>Example of slow execution due to dynamic typing:</p>
+        <code>
+          x = 10
+          y = "Hello"
+          z = x + y  # TypeError: unsupported operand type(s) for +: 'int' and 'str'
+        </code>
+      </section>
+      <section class="main-section" id="Uses_and_Applications_of_Python">
+        <header>Uses and Applications of Python</header>
+        <p>Developers prefer Python for web Development, due to its easy and feature-rich framework. They can create Dynamic websites with the best user experience using Python frameworks. Some of the frameworks are -Django, for Backend development and Flask, for Frontend development.</p>
+        <p>Data scientists can build powerful AI models using Python snippets. Due to its easily understandable feature, it allows developers to write complex algorithms. Data Science is used to create models and neural networks which can learn like human brains but are much faster than a single brain.</p>
+        <p>Example of a simple Flask web application:</p>
+        <code>
+          from flask import Flask
+          app = Flask(__name__)
+            
+          @app.route("/")
+          def home():
+              return "Hello, Flask!"
+                
+          if __name__ == "__main__":
+              app.run(debug=True)
+        </code>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
+
+
+  
